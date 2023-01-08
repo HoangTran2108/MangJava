@@ -28,7 +28,7 @@ public class Main {
             array[j] = array[size - 1 - j];
             array[size - 1 - j] = temp;
         }
-        System.out.printf("\n%-20s%s", "đảo ngược mảng: ", "");
+        System.out.printf("\n%-20s%s", "Đảo ngược mảng: ", "");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "");
         }
