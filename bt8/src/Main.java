@@ -8,7 +8,7 @@ public class Main {
         String str = scanner.next();
 
         System.out.print("Ký tự cần đếm: ");
-        char ch = (char) scanner.next().charAt(0);
+        char ch = scanner.next().charAt(0);
 
         int count=0;
         for (int i=0; i<str.length(); i++) {
